@@ -17,8 +17,8 @@ def validate_md5sum(digest, path):
 
 class JavaParserInstaller:
     parser_path = 'kenja/lib/java/java-parser.jar'
-    parser_location = 'https://github.com/niyaton/kenja-java-parser/releases/download/0.5/kenja-java-parser-0.5-jar-with-dependencies.jar'
-    parser_digest = '3686529db9d36d5ef5d7425692d95aea'
+    parser_location = 'https://github.com/umr00/kenja-java-parser/releases/download/0.5_tokenized/kenja-java-parser-0.5-jar-with-dependencies.jar'
+    parser_digest = '40415dd8ee6f58cc2be700bff41ff998'
 
     def validate_parser(self):
         if not os.path.exists(self.parser_path):
